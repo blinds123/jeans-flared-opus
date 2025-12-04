@@ -1,0 +1,219 @@
+{
+  "testimonials": [
+    {
+      "name": "Emma K.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "obsessed with these jeans!! the flare is SO flattering and the stretch is *chef's kiss* 👖✨",
+      "date": "2 days ago",
+      "img": 0
+    },
+    {
+      "name": "Sophia L.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "literally the perfect dark wash. these make my legs look miles long and the high waist?? elite 🖤",
+      "date": "5 days ago",
+      "img": 1
+    },
+    {
+      "name": "Olivia M.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "no bc the way these fit my curves??? finally jeans that actually work for my body type 💯",
+      "date": "1 week ago",
+      "img": 2
+    },
+    {
+      "name": "Ava R.",
+      "platform": "facebook",
+      "rating": 5,
+      "text": "I was skeptical about flares coming back but these changed my mind. They're so flattering and the quality is amazing for the price!",
+      "date": "1 week ago",
+      "img": 3
+    },
+    {
+      "name": "Isabella T.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "the stretch on these!! i can actually sit down comfortably lol. so much better than stiff denim",
+      "date": "3 days ago",
+      "img": 4
+    },
+    {
+      "name": "Mia B.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "wore these on a date last night and felt SO confident. the navy wash goes with literally everything ✨",
+      "date": "4 days ago",
+      "img": 5
+    },
+    {
+      "name": "Charlotte W.",
+      "platform": "tiktok",
+      "rating": 4,
+      "text": "okay these are actually perfect. the flare hits right at my ankle with boots. chef's kiss fr",
+      "date": "6 days ago",
+      "img": 6
+    },
+    {
+      "name": "Amelia S.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "best jeans purchase ever!! the fabric feels expensive but the price is so reasonable 🖤",
+      "date": "1 week ago",
+      "img": 7
+    },
+    {
+      "name": "Harper D.",
+      "platform": "facebook",
+      "rating": 5,
+      "text": "I'm a size 10 and curvy - these fit PERFECTLY. The stretch means they hug in all the right places without feeling tight. So comfortable!",
+      "date": "5 days ago",
+      "img": 8
+    },
+    {
+      "name": "Evelyn C.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "literally living in these. wore them 3x this week already and they still look brand new",
+      "date": "2 days ago",
+      "img": 9
+    },
+    {
+      "name": "Abigail P.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "the quality is insane. these feel like $150 jeans but they're so affordable 👖💯",
+      "date": "1 week ago",
+      "img": 10
+    },
+    {
+      "name": "Emily H.",
+      "platform": "google",
+      "rating": 5,
+      "text": "Best jeans I've bought in years. The flare is trendy but not over-the-top, and the high waist is so flattering. Worth every penny!",
+      "date": "1 week ago",
+      "img": 11
+    },
+    {
+      "name": "Ella J.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "no bc these are THE jeans. vintage vibes but modern fit. obsessed",
+      "date": "3 days ago",
+      "img": 12
+    },
+    {
+      "name": "Madison F.",
+      "platform": "facebook",
+      "rating": 4,
+      "text": "I was worried about the flare looking dated but these are so stylish! They look amazing with sneakers or heels. Super versatile!",
+      "date": "6 days ago",
+      "img": 13
+    },
+    {
+      "name": "Scarlett G.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "the stretch is REAL. i can move, dance, sit without them digging in. game changer ✨",
+      "date": "4 days ago",
+      "img": 14
+    },
+    {
+      "name": "Victoria N.",
+      "platform": "instagram",
+      "rating": 5,
+      "text": "wore these to work and then straight to drinks after. they're SO versatile and comfy 🖤",
+      "date": "5 days ago",
+      "img": 15
+    },
+    {
+      "name": "Grace V.",
+      "platform": "facebook",
+      "rating": 5,
+      "text": "I've worn these every day this week. The dark wash hides everything and they go with all my tops. Such a good investment!",
+      "date": "3 days ago",
+      "img": 16
+    },
+    {
+      "name": "Chloe A.",
+      "platform": "trustpilot",
+      "rating": 5,
+      "text": "Exceeded expectations! The fabric quality is excellent - thick but stretchy. The flare is the perfect width and the navy color is gorgeous. Fast shipping too!",
+      "date": "1 week ago",
+      "img": 17
+    },
+    {
+      "name": "Penelope Z.",
+      "platform": "tiktok",
+      "rating": 5,
+      "text": "literally got stopped 3 times asking where i got these jeans. that's how good they are 💯",
+      "date": "2 days ago",
+      "img": 18
+    },
+    {
+      "name": "Layla Y.",
+      "platform": "google",
+      "rating": 5,
+      "text": "Worth every penny! The cost per wear is incredible since I wear them constantly. Quality denim that actually lasts.",
+      "date": "4 days ago",
+      "img": 19
+    },
+    {
+      "name": "Riley X.",
+      "platform": "instagram",
+      "rating": 4,
+      "text": "these look SO good with platform boots. the flare balances out chunky shoes perfectly 👖✨",
+      "date": "6 days ago",
+      "img": 20
+    }
+  ],
+  "featured_reviews": [
+    {
+      "name": "Sophia R.",
+      "platform": "instagram",
+      "platformColor": "#E4405F",
+      "rating": 5,
+      "text": "I was SO nervous ordering jeans online - sizing is always a gamble, especially for curvy girls. But these fit PERFECTLY. The stretch is amazing (thank you spandex!), the flare hits at the perfect spot on my ankle, and the high waist doesn't gap at all. I've literally worn them 4 times this week already. If you're on the fence, just get them!",
+      "helpful": 127,
+      "verified": true
+    },
+    {
+      "name": "Maya K.",
+      "platform": "tiktok",
+      "platformColor": "#000000",
+      "rating": 5,
+      "text": "I'll be honest - I thought flares were over. Like why would I wear bell bottoms in 2025?? But then I saw these on my FYP and caved. Now I literally can't stop wearing them. They're SO flattering, make my legs look incredible, and the vintage vibe is *chef's kiss*. The dark navy wash is way more versatile than I expected too. Best impulse buy ever!",
+      "helpful": 94,
+      "verified": true
+    },
+    {
+      "name": "Zara L.",
+      "platform": "facebook",
+      "platformColor": "#1877F2",
+      "rating": 5,
+      "text": "I was worried about spending money on trendy jeans that I'd only wear once. But the quality on these is incredible - the fabric feels thick and premium, not thin and cheap. The stretch means they move with you, and after 2 weeks of constant wear, they still look brand new. The cost per wear is already amazing and I just got them! Definitely worth the investment.",
+      "helpful": 81,
+      "verified": true
+    },
+    {
+      "name": "Aria M.",
+      "platform": "instagram",
+      "platformColor": "#E4405F",
+      "rating": 5,
+      "text": "I have thick thighs and usually jeans are either too tight on my legs or too loose at the waist. These are the FIRST pair that fit both perfectly. The stretch is real (3% spandex doing the lord's work), and the flare balances out my proportions so well. I wore them on a date last weekend and felt so confident. They're my new go-to jeans, no contest.",
+      "helpful": 156,
+      "verified": true
+    },
+    {
+      "name": "Luna P.",
+      "platform": "google",
+      "platformColor": "#4285F4",
+      "rating": 5,
+      "text": "I bought these thinking they'd be cute for going out, but they've become my everyday jeans. I've worn them to class, to work (business casual office!), on dates, and out with friends. The navy wash is so easy to style - they look good with sneakers, boots, or heels. The comfort level is unmatched too. I can sit through lectures without adjusting them constantly. Genuinely the best jeans I own now.",
+      "helpful": 103,
+      "verified": true
+    }
+  ]
+}
