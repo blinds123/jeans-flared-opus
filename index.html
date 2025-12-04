@@ -660,19 +660,6 @@ h1,h2,h3{font-family:'Cormorant Garamond',serif}
   </div>
 </footer>
 
-<!-- GDPR Cookie Consent Banner -->
-<div id="cookieBanner" class="cookie-banner">
-  <div class="cookie-content">
-    <div class="cookie-text">
-      <strong>We use cookies to improve your experience</strong><br>
-      This website uses essential cookies for functionality and analytics cookies (TikTok Pixel) to measure advertising effectiveness. By clicking "Accept", you consent to our use of cookies. <a href="privacy.html">Learn more in our Privacy Policy</a>
-    </div>
-    <div class="cookie-buttons">
-      <button class="cookie-btn decline" onclick="handleCookieConsent(false)">Decline</button>
-      <button class="cookie-btn accept" onclick="handleCookieConsent(true)">Accept All Cookies</button>
-    </div>
-  </div>
-</div>
 
 <script>
 // Performance Metrics
@@ -741,18 +728,17 @@ document.getElementById('orderBumpPopup')?.addEventListener('click', function(e)
 });
 
 // Product Images
-const productImages = ['product-01.png', 'product-02.png', 'product-03.png', 'product-04.png', 'product-05.png'];
+const productImages = ['product-01.png', 'product-02.png', 'product-03.png', 'product-04.jpg'];
 
 function loadThumbnails() {
   const thumbsContainer = document.getElementById('thumbs');
   thumbsContainer.innerHTML = '';
 
   const altTexts = [
-    'Navy jeans front view - luxurious Stretch Denim Blend in deep navy indigo wash',
-    'Navy jeans detail view - close-up of premium soft cashmere texture',
-    'Navy jeans lifestyle view - elegant styling with timeless design',
-    'Navy jeans side view - classic crew neck silhouette',
-    'Navy jeans back view - showcasing quality craftsmanship'
+    'Navy flared jeans front view - premium stretch denim in deep navy indigo wash',
+    'Navy flared jeans detail view - close-up of quality denim fabric and stitching',
+    'Navy flared jeans lifestyle view - flattering flare silhouette for any occasion',
+    'Navy flared jeans side view - high-waisted design with vintage flare'
   ];
 
   productImages.forEach((src, i) => {
@@ -916,28 +902,29 @@ function declineOrderBump() {
   processOrder(amount);
 }
 
-// Testimonial Image Mapping - map img number to actual filename (URL-encoded)
+// Testimonial Image Mapping - map img number to actual filename
 const testimonialImages = {
-  1: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(1).png',
-  2: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(2).png',
-  3: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(3).png',
-  4: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(4).png',
-  5: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(5).png',
-  6: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(6).png',
-  7: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(7).png',
-  8: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(8).png',
-  9: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(9).png',
-  10: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(10).png',
-  11: 'Gemini_Generated_Image_iij8huiij8huiij8%20(1).png',
-  12: 'Gemini_Generated_Image_iij8huiij8huiij8%20(2).png',
-  13: 'Gemini_Generated_Image_iij8huiij8huiij8%20(3).png',
-  14: 'Gemini_Generated_Image_iij8huiij8huiij8%20(4).png',
-  15: 'Gemini_Generated_Image_iij8huiij8huiij8%20(5).png',
-  16: 'Gemini_Generated_Image_iij8huiij8huiij8%20(6).png',
-  17: 'Gemini_Generated_Image_iij8huiij8huiij8%20(7).png',
-  18: 'Gemini_Generated_Image_iij8huiij8huiij8%20(8).png',
-  19: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(1).png',
-  20: 'Gemini_Generated_Image_7kvmzu7kvmzu7kvm%20(2).png'
+  0: 'testimonial-01.png',
+  1: 'testimonial-02.png',
+  2: 'testimonial-03.png',
+  3: 'testimonial-04.png',
+  4: 'testimonial-05.png',
+  5: 'testimonial-06.png',
+  6: 'testimonial-07.png',
+  7: 'testimonial-08.png',
+  8: 'testimonial-09.png',
+  9: 'testimonial-10.png',
+  10: 'testimonial-11.png',
+  11: 'testimonial-12.png',
+  12: 'testimonial-13.png',
+  13: 'testimonial-14.png',
+  14: 'testimonial-15.png',
+  15: 'testimonial-16.png',
+  16: 'testimonial-17.png',
+  17: 'testimonial-18.png',
+  18: 'testimonial-19.png',
+  19: 'testimonial-20.png',
+  20: 'testimonial-21.png'
 };
 
 // SVG Platform Icons
@@ -965,6 +952,156 @@ function loadRemainingContent() {
   const lazyContent = document.getElementById('lazyContent');
 
   lazyContent.innerHTML = `
+    <!-- Product Description Section -->
+    <div class="fade-in" style="padding:60px 20px;background:#fff;border-bottom:1px solid #e0e0e0">
+      <div style="max-width:1000px;margin:0 auto">
+        <h2 style="text-align:center;font-size:32px;font-weight:800;margin-bottom:20px;color:#1a1a1a">The Flare That's Taking Over</h2>
+        <p style="text-align:center;color:#666;font-size:17px;margin-bottom:40px;max-width:700px;margin-left:auto;margin-right:auto">Vintage-inspired flared jeans with modern stretch comfort. High-waisted, flattering fit that makes your legs look miles long.</p>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;margin-bottom:40px">
+          <div style="text-align:center;padding:30px;background:#f8f9fa;border-radius:12px">
+            <div style="width:60px;height:60px;margin:0 auto 16px;background:#2B3E50;border-radius:50%;display:flex;align-items:center;justify-content:center">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+            <h3 style="font-size:18px;font-weight:700;margin-bottom:8px;color:#1a1a1a">Stretch Denim Blend</h3>
+            <p style="color:#666;font-size:14px;line-height:1.6">80% cotton, 17% polyester, 3% spandex for all-day comfort and movement</p>
+          </div>
+          <div style="text-align:center;padding:30px;background:#f8f9fa;border-radius:12px">
+            <div style="width:60px;height:60px;margin:0 auto 16px;background:#2B3E50;border-radius:50%;display:flex;align-items:center;justify-content:center">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 2l3 6h6l-5 4 2 6-6-4-6 4 2-6-5-4h6z"/></svg>
+            </div>
+            <h3 style="font-size:18px;font-weight:700;margin-bottom:8px;color:#1a1a1a">High-Waisted Fit</h3>
+            <p style="color:#666;font-size:14px;line-height:1.6">Sits at natural waist with no gapping. Flattering for every body type</p>
+          </div>
+          <div style="text-align:center;padding:30px;background:#f8f9fa;border-radius:12px">
+            <div style="width:60px;height:60px;margin:0 auto 16px;background:#2B3E50;border-radius:50%;display:flex;align-items:center;justify-content:center">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/></svg>
+            </div>
+            <h3 style="font-size:18px;font-weight:700;margin-bottom:8px;color:#1a1a1a">Vintage Flare</h3>
+            <p style="color:#666;font-size:14px;line-height:1.6">The perfect flare width - trendy but not over-the-top. Pairs with boots or heels</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Tabs Section -->
+    <div class="fade-in" style="padding:60px 20px;background:#f8f9fa">
+      <div style="max-width:900px;margin:0 auto">
+        <div style="display:flex;justify-content:center;gap:8px;margin-bottom:30px;flex-wrap:wrap">
+          <button onclick="showTab('shipping')" id="tab-shipping" class="tab-btn active" style="padding:12px 24px;border:2px solid #2B3E50;background:#2B3E50;color:#fff;border-radius:8px;font-weight:600;cursor:pointer;transition:all 0.2s">Shipping</button>
+          <button onclick="showTab('returns')" id="tab-returns" class="tab-btn" style="padding:12px 24px;border:2px solid #2B3E50;background:#fff;color:#2B3E50;border-radius:8px;font-weight:600;cursor:pointer;transition:all 0.2s">Returns</button>
+          <button onclick="showTab('care')" id="tab-care" class="tab-btn" style="padding:12px 24px;border:2px solid #2B3E50;background:#fff;color:#2B3E50;border-radius:8px;font-weight:600;cursor:pointer;transition:all 0.2s">Care</button>
+          <button onclick="showTab('sizing')" id="tab-sizing" class="tab-btn" style="padding:12px 24px;border:2px solid #2B3E50;background:#fff;color:#2B3E50;border-radius:8px;font-weight:600;cursor:pointer;transition:all 0.2s">Size Guide</button>
+        </div>
+
+        <div id="tab-content-shipping" class="tab-content" style="background:#fff;padding:30px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
+          <h3 style="font-size:20px;font-weight:700;margin-bottom:16px;color:#1a1a1a">Free Shipping Worldwide</h3>
+          <ul style="list-style:none;padding:0;margin:0">
+            <li style="padding:12px 0;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:12px"><span style="color:#28a745">✓</span> Free standard shipping on all orders</li>
+            <li style="padding:12px 0;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:12px"><span style="color:#28a745">✓</span> USA: 3-5 business days</li>
+            <li style="padding:12px 0;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:12px"><span style="color:#28a745">✓</span> Canada & Europe: 5-7 business days</li>
+            <li style="padding:12px 0;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:12px"><span style="color:#28a745">✓</span> Australia & NZ: 7-10 business days</li>
+            <li style="padding:12px 0;display:flex;align-items:center;gap:12px"><span style="color:#28a745">✓</span> Tracking number provided within 24 hours</li>
+          </ul>
+        </div>
+
+        <div id="tab-content-returns" class="tab-content" style="display:none;background:#fff;padding:30px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
+          <h3 style="font-size:20px;font-weight:700;margin-bottom:16px;color:#1a1a1a">30-Day Money-Back Guarantee</h3>
+          <ul style="list-style:none;padding:0;margin:0">
+            <li style="padding:12px 0;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:12px"><span style="color:#28a745">✓</span> Don't love them? Return for a full refund</li>
+            <li style="padding:12px 0;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:12px"><span style="color:#28a745">✓</span> Free return shipping (prepaid label provided)</li>
+            <li style="padding:12px 0;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:12px"><span style="color:#28a745">✓</span> Easy exchanges for different sizes</li>
+            <li style="padding:12px 0;display:flex;align-items:center;gap:12px"><span style="color:#28a745">✓</span> Refunds processed within 3-5 business days</li>
+          </ul>
+        </div>
+
+        <div id="tab-content-care" class="tab-content" style="display:none;background:#fff;padding:30px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
+          <h3 style="font-size:20px;font-weight:700;margin-bottom:16px;color:#1a1a1a">Denim Care Instructions</h3>
+          <ul style="list-style:none;padding:0;margin:0">
+            <li style="padding:12px 0;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:12px"><span style="color:#2B3E50">👖</span> Machine wash cold inside out</li>
+            <li style="padding:12px 0;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:12px"><span style="color:#2B3E50">🌡️</span> Wash with similar colors</li>
+            <li style="padding:12px 0;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:12px"><span style="color:#2B3E50">🚫</span> Do not bleach</li>
+            <li style="padding:12px 0;border-bottom:1px solid #f0f0f0;display:flex;align-items:center;gap:12px"><span style="color:#2B3E50">🔥</span> Tumble dry low or hang to dry</li>
+            <li style="padding:12px 0;display:flex;align-items:center;gap:12px"><span style="color:#2B3E50">✨</span> Iron on low heat if needed</li>
+          </ul>
+        </div>
+
+        <div id="tab-content-sizing" class="tab-content" style="display:none;background:#fff;padding:30px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
+          <h3 style="font-size:20px;font-weight:700;margin-bottom:16px;color:#1a1a1a">Size Guide</h3>
+          <p style="color:#666;margin-bottom:20px">These jeans have stretch - if between sizes, size down for a snugger fit.</p>
+          <table style="width:100%;border-collapse:collapse;font-size:14px">
+            <tr style="background:#f8f9fa"><th style="padding:12px;text-align:left;border-bottom:2px solid #2B3E50">Size</th><th style="padding:12px;text-align:center;border-bottom:2px solid #2B3E50">Waist (in)</th><th style="padding:12px;text-align:center;border-bottom:2px solid #2B3E50">Hip (in)</th><th style="padding:12px;text-align:center;border-bottom:2px solid #2B3E50">EU Size</th></tr>
+            <tr><td style="padding:12px;border-bottom:1px solid #f0f0f0">XS</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">25-26</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">34-35</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">32-34</td></tr>
+            <tr><td style="padding:12px;border-bottom:1px solid #f0f0f0">S</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">27-28</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">36-37</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">36</td></tr>
+            <tr><td style="padding:12px;border-bottom:1px solid #f0f0f0">M</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">29-30</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">38-39</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">38</td></tr>
+            <tr><td style="padding:12px;border-bottom:1px solid #f0f0f0">L</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">31-32</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">40-41</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">40</td></tr>
+            <tr><td style="padding:12px;border-bottom:1px solid #f0f0f0">XL</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">33-34</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">42-43</td><td style="padding:12px;text-align:center;border-bottom:1px solid #f0f0f0">42</td></tr>
+            <tr><td style="padding:12px">XXL</td><td style="padding:12px;text-align:center">35-36</td><td style="padding:12px;text-align:center">44-45</td><td style="padding:12px;text-align:center">44</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Accordion Section -->
+    <div class="fade-in" style="padding:60px 20px;background:#fff">
+      <div style="max-width:800px;margin:0 auto">
+        <h2 style="text-align:center;font-size:32px;font-weight:800;margin-bottom:40px;color:#1a1a1a">Frequently Asked Questions</h2>
+
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div class="faq-item" style="border:1px solid #e0e0e0;border-radius:12px;overflow:hidden">
+            <button onclick="toggleFaq(this)" style="width:100%;padding:20px;background:#fff;border:none;text-align:left;font-size:16px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center">
+              <span>How do these jeans fit?</span>
+              <span class="faq-icon" style="font-size:24px;transition:transform 0.3s">+</span>
+            </button>
+            <div class="faq-answer" style="display:none;padding:0 20px 20px;color:#666;line-height:1.7">
+              These are high-waisted flared jeans with a true-to-size fit. The 3% spandex gives them stretch, so they hug your curves while staying comfortable. If you're between sizes, we recommend sizing down for a snugger fit.
+            </div>
+          </div>
+
+          <div class="faq-item" style="border:1px solid #e0e0e0;border-radius:12px;overflow:hidden">
+            <button onclick="toggleFaq(this)" style="width:100%;padding:20px;background:#fff;border:none;text-align:left;font-size:16px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center">
+              <span>Are these good for curvy body types?</span>
+              <span class="faq-icon" style="font-size:24px;transition:transform 0.3s">+</span>
+            </button>
+            <div class="faq-answer" style="display:none;padding:0 20px 20px;color:#666;line-height:1.7">
+              Yes! These are designed with curvy women in mind. The stretch denim hugs in all the right places without feeling tight, and the high waist doesn't gap at the back. The flare also balances out hips beautifully.
+            </div>
+          </div>
+
+          <div class="faq-item" style="border:1px solid #e0e0e0;border-radius:12px;overflow:hidden">
+            <button onclick="toggleFaq(this)" style="width:100%;padding:20px;background:#fff;border:none;text-align:left;font-size:16px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center">
+              <span>What's the difference between Pre-Order and Order Today?</span>
+              <span class="faq-icon" style="font-size:24px;transition:transform 0.3s">+</span>
+            </button>
+            <div class="faq-answer" style="display:none;padding:0 20px 20px;color:#666;line-height:1.7">
+              <strong>Order Today ($59):</strong> Ships within 1-2 business days. You get priority shipping and fastest delivery.<br><br>
+              <strong>Pre-Order ($19):</strong> Lock in your size at a lower price. Ships in 2-3 weeks. Same quality, just longer wait time. Perfect if you're not in a rush!
+            </div>
+          </div>
+
+          <div class="faq-item" style="border:1px solid #e0e0e0;border-radius:12px;overflow:hidden">
+            <button onclick="toggleFaq(this)" style="width:100%;padding:20px;background:#fff;border:none;text-align:left;font-size:16px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center">
+              <span>What if they don't fit?</span>
+              <span class="faq-icon" style="font-size:24px;transition:transform 0.3s">+</span>
+            </button>
+            <div class="faq-answer" style="display:none;padding:0 20px 20px;color:#666;line-height:1.7">
+              No worries! We offer a 30-day money-back guarantee. If they don't fit or you don't love them, we'll send you a free return label and give you a full refund. Easy exchanges are also available if you just need a different size.
+            </div>
+          </div>
+
+          <div class="faq-item" style="border:1px solid #e0e0e0;border-radius:12px;overflow:hidden">
+            <button onclick="toggleFaq(this)" style="width:100%;padding:20px;background:#fff;border:none;text-align:left;font-size:16px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center">
+              <span>Will the color fade after washing?</span>
+              <span class="faq-icon" style="font-size:24px;transition:transform 0.3s">+</span>
+            </button>
+            <div class="faq-answer" style="display:none;padding:0 20px 20px;color:#666;line-height:1.7">
+              These are made with high-quality dark navy denim that's designed to maintain its color. Just wash inside out in cold water with similar colors, and they'll stay looking fresh. Many customers have worn theirs 10+ times and say they still look brand new!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Featured Review Carousel Section -->
     <div class="fade-in" style="padding:60px 20px;background:#fff;border-bottom:2px solid #f0f0f0">
       <div style="max-width:1200px;margin:0 auto">
@@ -1042,8 +1179,8 @@ function loadRemainingContent() {
 
     <!-- Final CTA -->
     <div class="fade-in" style="padding:80px 20px;text-align:center;background:linear-gradient(135deg,#2B3E50 0%,#1F2D3D 100%);color:#fff">
-      <h2 style="font-size:clamp(28px,5vw,40px);font-weight:700;margin-bottom:16px">Experience Pure Cashmere Luxury</h2>
-      <p style="font-size:18px;opacity:0.9;margin-bottom:30px;max-width:600px;margin-left:auto;margin-right:auto">Only 32 jeanss left in stock. 30-day money-back guarantee. Free returns.</p>
+      <h2 style="font-size:clamp(28px,5vw,40px);font-weight:700;margin-bottom:16px">The Jeans Everyone's Obsessed With</h2>
+      <p style="font-size:18px;opacity:0.9;margin-bottom:30px;max-width:600px;margin-left:auto;margin-right:auto">Only 32 pairs left in stock. 30-day money-back guarantee. Free returns.</p>
       <button onclick="document.querySelector('.product-hero').scrollIntoView({behavior:'smooth'})" style="background:#fff;color:#2B3E50;border:none;padding:20px 60px;border-radius:12px;font-size:20px;font-weight:800;cursor:pointer;transition:all 0.2s;box-shadow:0 8px 24px rgba(0,0,0,0.2);min-height:64px">
         CLAIM YOURS NOW
       </button>
@@ -1056,6 +1193,54 @@ function loadRemainingContent() {
       setTimeout(() => el.classList.add('visible'), i * 100);
     });
   });
+}
+
+// Tab functionality
+function showTab(tabName) {
+  // Hide all tab contents
+  document.querySelectorAll('.tab-content').forEach(content => {
+    content.style.display = 'none';
+  });
+
+  // Remove active from all tab buttons
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.style.background = '#fff';
+    btn.style.color = '#2B3E50';
+  });
+
+  // Show selected tab content
+  const selectedContent = document.getElementById('tab-content-' + tabName);
+  if (selectedContent) {
+    selectedContent.style.display = 'block';
+  }
+
+  // Mark selected tab as active
+  const selectedTab = document.getElementById('tab-' + tabName);
+  if (selectedTab) {
+    selectedTab.style.background = '#2B3E50';
+    selectedTab.style.color = '#fff';
+  }
+}
+
+// FAQ accordion functionality
+function toggleFaq(button) {
+  const answer = button.nextElementSibling;
+  const icon = button.querySelector('.faq-icon');
+  const isOpen = answer.style.display === 'block';
+
+  // Close all FAQ items
+  document.querySelectorAll('.faq-answer').forEach(a => a.style.display = 'none');
+  document.querySelectorAll('.faq-icon').forEach(i => {
+    i.textContent = '+';
+    i.style.transform = 'rotate(0deg)';
+  });
+
+  // Toggle current item
+  if (!isOpen) {
+    answer.style.display = 'block';
+    icon.textContent = '−';
+    icon.style.transform = 'rotate(180deg)';
+  }
 }
 
 function renderTestimonials(count) {
