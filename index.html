@@ -861,25 +861,6 @@ function handleAddToCart(type) {
 
 
 function showOrderBumpPopup(type) {
-  const basePrice = type === 'primary' ? 59 : 19;
-  const bumpPrice = 10;
-  const total = basePrice + bumpPrice;
-
-  document.getElementById('orderSummary').innerHTML = `
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
-      <span style="color:#666">${type === 'primary' ? 'Flared Denim Jeans' : 'Pre-Order: Flared Denim Jeans'}</span>
-      <span style="font-weight:600">$${basePrice}</span>
-    </div>
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid #e0e0e0">
-      <span style="color:#28a745;font-weight:600">+ Matching accessories bundle</span>
-      <span style="font-weight:600;color:#28a745">$${bumpPrice}</span>
-    </div>
-    <div style="display:flex;justify-content:space-between;align-items:center">
-      <span style="font-size:18px;font-weight:700">Total</span>
-      <span style="font-size:24px;font-weight:700;color:#000">$${total}</span>
-    </div>
-  `;
-
   document.getElementById('orderBumpPopup').style.display = 'flex';
   document.body.style.overflow = 'hidden';
 }
