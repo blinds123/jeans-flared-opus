@@ -415,50 +415,38 @@ h1,h2,h3{font-family:'Cormorant Garamond',serif}
     <button onclick="closeOrderBumpPopup()" aria-label="Close popup" style="position:absolute;top:16px;right:16px;background:none;border:none;font-size:32px;cursor:pointer;color:#999;line-height:1;padding:0;display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px">&times;</button>
     <div style="text-align:center;margin-bottom:30px">
       <div style="background:#2B3E50;color:#fff;display:inline-block;padding:8px 16px;border-radius:20px;font-size:14px;font-weight:700;margin-bottom:20px">COMPLETE THE SET!</div>
-      <h2 id="popupTitle" style="font-size:28px;font-weight:700;margin-bottom:12px;color:#1a1a1a">Complete Your Going-Out Look?</h2>
-      <p style="color:#666;font-size:16px">everything you need to slay in your new jeans</p>
+      <h2 id="popupTitle" style="font-size:26px;font-weight:700;margin-bottom:8px;color:#1a1a1a">wait... add these?</h2>
+      <p style="color:#666;font-size:15px">$89 worth of stuff for $10. literally a steal.</p>
     </div>
-    <div style="background:#f8f9fa;border-radius:12px;padding:24px;margin-bottom:30px">
+    <div style="background:#f8f9fa;border-radius:12px;padding:20px;margin-bottom:24px">
       <!-- Bundle Product Images -->
-      <div style="display:flex;justify-content:center;gap:12px;margin-bottom:20px">
+      <div style="display:flex;justify-content:center;gap:16px;margin-bottom:16px">
         <div style="text-align:center">
-          <img src="./images/order-bump/item1.jpg" alt="Seamless Nude Underwear" style="width:80px;height:80px;object-fit:cover;border-radius:8px;border:2px solid #e0e0e0">
-          <div style="font-size:11px;color:#666;margin-top:4px">No VPL</div>
+          <img src="./images/order-bump/item1.jpg" alt="Seamless Underwear" style="width:72px;height:72px;object-fit:cover;border-radius:10px;border:2px solid #e0e0e0">
+          <div style="font-size:12px;font-weight:600;color:#1a1a1a;margin-top:6px">no vpl</div>
         </div>
         <div style="text-align:center">
-          <img src="./images/order-bump/item2.jpg" alt="Body Shimmer Oil" style="width:80px;height:80px;object-fit:cover;border-radius:8px;border:2px solid #e0e0e0">
-          <div style="font-size:11px;color:#666;margin-top:4px">The Glow</div>
+          <img src="./images/order-bump/item2.jpg" alt="Body Shimmer" style="width:72px;height:72px;object-fit:cover;border-radius:10px;border:2px solid #e0e0e0">
+          <div style="font-size:12px;font-weight:600;color:#1a1a1a;margin-top:6px">the glow</div>
         </div>
         <div style="text-align:center">
-          <img src="./images/order-bump/item3.jpg" alt="Tortoise Claw Clip" style="width:80px;height:80px;object-fit:cover;border-radius:8px;border:2px solid #e0e0e0">
-          <div style="font-size:11px;color:#666;margin-top:4px">70s Vibes</div>
+          <img src="./images/order-bump/item3.jpg" alt="Claw Clip" style="width:72px;height:72px;object-fit:cover;border-radius:10px;border:2px solid #e0e0e0">
+          <div style="font-size:12px;font-weight:600;color:#1a1a1a;margin-top:6px">the clip</div>
         </div>
       </div>
-      <div style="display:flex;gap:20px;align-items:center">
-        <div style="flex:1">
-          <h3 style="font-size:20px;font-weight:700;margin-bottom:8px">The Flare Essentials Bundle</h3>
-          <ul style="list-style:none;padding:0;margin:0">
-            <li style="margin-bottom:6px">✓ Seamless Nude Underwear <span style="color:#999;font-size:12px">($25)</span></li>
-            <li style="margin-bottom:6px">✓ Body Shimmer Oil <span style="color:#999;font-size:12px">($35)</span></li>
-            <li style="margin-bottom:6px">✓ Tortoise Hair Claw Clip <span style="color:#999;font-size:12px">($29)</span></li>
-          </ul>
-        </div>
-        <div style="text-align:center">
-          <div style="font-size:14px;color:#999;text-decoration:line-through">$89</div>
-          <div style="font-size:32px;font-weight:700;color:#28a745">$10</div>
-          <div style="background:#28a745;color:#fff;padding:4px 12px;border-radius:12px;font-size:12px;font-weight:700;margin-top:8px">89% OFF</div>
-        </div>
+      <div style="text-align:center;padding:12px;background:#fff;border-radius:8px">
+        <span style="font-size:16px;color:#999;text-decoration:line-through">$89</span>
+        <span style="font-size:28px;font-weight:800;color:#28a745;margin-left:12px">$10</span>
       </div>
     </div>
     <div id="orderSummary" style="background:#fff;border:2px solid #e0e0e0;border-radius:12px;padding:20px;margin-bottom:24px">
       <!-- Dynamic order summary -->
     </div>
-    <button onclick="acceptOrderBump()" style="width:100%;background:#28a745;color:#fff;border:none;padding:20px;border-radius:12px;font-size:18px;font-weight:700;cursor:pointer;margin-bottom:12px;transition:all 0.2s;min-height:64px;box-shadow:0 4px 12px rgba(40,167,69,0.3)">
-      <div style="font-size:20px;margin-bottom:4px">YES! Add the essentials - $10</div>
-      <div style="font-size:13px;opacity:0.9;font-weight:600">$89 value for just $10 (89% OFF)</div>
+    <button onclick="acceptOrderBump()" style="width:100%;background:#28a745;color:#fff;border:none;padding:18px;border-radius:12px;font-size:18px;font-weight:700;cursor:pointer;margin-bottom:10px;transition:all 0.2s;min-height:56px;box-shadow:0 4px 12px rgba(40,167,69,0.3)">
+      yes add these - $10
     </button>
-    <button onclick="declineOrderBump()" style="width:100%;background:#fff;color:#666;border:2px solid #ddd;padding:14px;border-radius:12px;font-size:13px;font-weight:600;cursor:pointer;transition:all 0.2s;min-height:50px">
-      No thanks, I'll just take the jeans
+    <button onclick="declineOrderBump()" style="width:100%;background:transparent;color:#999;border:none;padding:12px;font-size:13px;cursor:pointer">
+      nah i'm good
     </button>
   </div>
 </div>
